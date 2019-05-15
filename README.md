@@ -6,16 +6,6 @@ django-project-struct是用来创建django项目的模板。该模板主要包�
 
 ## 使用步骤
 
-### 新建项目
-```
- django-admin startproject --template=https://github.com/skskevin/django-project-struct/archive/master.zip [projectname]
-```
-或者在新建项目的同时生成Webserver配置文件: 
-
-```
-django-admin startproject --template=https://github.com/skskevin/django-project-struct/archive/master.zip --name apache2_vhost.sample [projectname]
-```
-
 ### 配置数据库
 同时配置生产和开发环境中的数据库
 
